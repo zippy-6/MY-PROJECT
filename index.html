@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Biology Quiz</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="quiz-box">
+    <h2>Biology Quiz</h2>
+    <div id="question-container">
+      <div id="question">Question will appear here</div>
+      <div id="options">
+        <button class="option" id="A" onclick="selectAnswer('A')">A</button>
+        <button class="option" id="B" onclick="selectAnswer('B')">B</button>
+        <button class="option" id="C" onclick="selectAnswer('C')">C</button>
+      </div>
+    </div>
+    <button id="next-btn" onclick="nextQuestion()">Next</button>
+    <div id="result"></div>
+  </div>
+  <script src="java.js"></script>
+</body>
+</html>
